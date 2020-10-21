@@ -14,8 +14,7 @@ def euler(x0,y0,xn,n):
         y0 = yn
         x0 = x0+h
     print('\nAt x=%.4f, y=%.4f' %(xn,yn))
-print('Enter calculation point: ')
-xn = float(input('xn = '))
+
 print('Enter number of steps:')
 step = int(input('Number of steps = '))
-euler(0,1,xn,step)
+euler(0,1,2,step)
