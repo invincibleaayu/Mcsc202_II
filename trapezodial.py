@@ -14,4 +14,5 @@ def trapezoidal(x0,xn,n):
     return integration
 sub_interval = int(input("Enter number of sub intervals: "))
 output = trapezoidal(0, pi, sub_interval)
+
 print("The value of integration using trapezodial rule is : %0.5f" % (output) )
