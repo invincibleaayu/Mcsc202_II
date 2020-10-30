@@ -1,6 +1,6 @@
 import numpy as np
 from math import e
-import pandas as import pdb; pdb.set_trace()
+import pandas as  pd
 
 data=np.linspace(-1,1,19)
 x_value=np.around(data,decimals=3)
